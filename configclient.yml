@@ -5,3 +5,7 @@ spring:
     name: configclient
 some:
   value: valor del servidor
+management:
+  web:
+    exposure:
+      include: '*'
