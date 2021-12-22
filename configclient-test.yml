@@ -2,3 +2,7 @@
     port: 8089
   some:
     value: valor del servidor en test
+  management:
+    web:
+      exposure:
+        include: '*'
